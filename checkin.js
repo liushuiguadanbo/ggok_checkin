@@ -6,7 +6,7 @@ axios.defaults.headers.common.cookie = process.env.COOKIE;
 const checkIn = async () => {
     return axios({
         method: 'post',
-        url: 'https://glados.rocks/api/user/checkin',
+        url: 'https://ggme.xyz/user',
         data: {
             token: "glados_network"
         }

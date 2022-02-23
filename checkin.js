@@ -16,7 +16,7 @@ const checkIn = async () => {
 const status = async () => {
     return axios({
         method: 'get',
-        url: 'https://glados.rocks/api/user/status'
+        url: 'https://ggme.xyz/user'
     })
 }
 
